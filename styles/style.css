@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  outline-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  /* Fonts */
+  font-size: 62.5%;
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+
+  /* Colors */
+  --black: #000000;
+  --page-background: #2a2731;
+  --card-background: #17151c;
+
+  --gray: #7a7585;
+  --white-letter: #eeecf1;
+
+  --blue-soft: #76a9ff;
+  --blue-selector: #133774;
+
+  --green-soft: #a9d3ab;
+  --green-light: #37833b;
+  --green-medium: #2b662e;
+  --green-medium-dark: #1f4921;
+  --green-dark: #132c14;
+
+  /* Page */
+}
+
+body {
+  background: var(--page-background);
+  height: 100vh;
+  overflow: hidden;
+}
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}

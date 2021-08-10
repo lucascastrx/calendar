@@ -1,0 +1,99 @@
+html {
+  /* Fonts */
+  --title-font: 'Poppins', sans-serif;
+  --body-font: 'DM Sans', sans-serif;
+
+  /* Colors */
+  --black: #000000;
+  --page-background: #2a2731;
+  --card-background: #17151c;
+
+  --gray: #7a7585;
+  --white-letter: #eeecf1;
+
+  --blue-soft: #76a9ff;
+  --blue-selector: #133774;
+
+  --green-soft: #a9d3ab;
+  --green-light: #37833b;
+  --green-medium: #2b662e;
+  --green-medium-dark: #1f4921;
+  --green-dark: #132c14;
+}
+
+#header {
+  font: 700 1.6rem var(--title-font);
+  height: 5rem;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 500 1.6rem var(--body-font);
+}
+
+form {
+  background: var(--card-background);
+  height: 30rem;
+  width: 30rem;
+  border-radius: 2rem;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  box-shadow: 0px 0px 12px rgba(231, 8, 8, 0.08);
+}
+
+.txt {
+  margin-bottom: 1rem;
+}
+
+.txt #email,
+.txt #password {
+  background: var(--page-background);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font: 400 1.6rem var(--body-font);
+  color: var(--white-letter);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+button {
+  font: 500 1.6rem var(--body-font);
+
+  background: var(--blue-soft);
+  border-radius: 1rem;
+  line-height: 2.5em;
+  width: 10rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background: var(--blue-selector);
+  color: var(--white-letter);
+  transition: 0.2s;
+}
+
+.signup {
+  position: relative;
+  bottom: -5rem;
+  right: -2rem;
+}
+.signup,
+a {
+  color: var(--white-letter);
+}
+
+a:hover {
+  color: var(--blue-soft);
+  transition: 0.3s;
+}
