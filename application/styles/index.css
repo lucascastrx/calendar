@@ -1,3 +1,4 @@
+/* MAIN CONTENT  */
 .content {
   margin: auto 14.2rem;
 }
@@ -8,6 +9,7 @@
   width: 802px;
 }
 
+/* HEADER */
 header {
   display: flex;
   background-color: var(--black);
