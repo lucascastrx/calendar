@@ -22,7 +22,7 @@ header {
 
 header > h1 {
   color: var(--gray);
-  font-size: 3rem;
+  font: 700 3rem var(--title-font);
   padding-left: 8.8rem;
 }
 
@@ -31,7 +31,7 @@ header > h1 > strong {
 }
 
 header > nav {
-  font-size: 1.6rem;
+  font: 400 1.6rem var(--body-font);
   padding-right: 1.6rem;
   display: flex;
 }
@@ -40,8 +40,17 @@ header > nav > a {
   padding: 0.8rem 2.4rem;
   color: var(--white-letter);
   border-radius: 16px;
+  transition: 0.3s;
 }
 
 header > nav > a.active {
   background-color: var(--blue-selector);
+}
+
+header > nav > a:hover {
+  color: var(--blue-soft);
+}
+
+header > nav > a.active:hover {
+  background-color: var(--white-letter);
 }
