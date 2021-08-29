@@ -19,6 +19,8 @@ html {
   --green-medium: #2b662e;
   --green-medium-dark: #1f4921;
   --green-dark: #132c14;
+
+  overflow: hidden;
 }
 
 #header {
