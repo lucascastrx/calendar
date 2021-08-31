@@ -202,3 +202,57 @@ main > h1 {
 .next-date {
   opacity: 0.5;
 }
+
+/* CARDS */
+.cards {
+  width: 75.4rem;
+  height: 6.4rem;
+
+  border-radius: 8px;
+
+  margin-top: 1.6rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards > div {
+  height: 100%;
+  border-radius: 10px;
+  background-color: black;
+
+  color: var(--white-letter);
+  font: 400 1.6rem var(--body-font);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 1.6rem;
+}
+
+.location-card {
+  width: 30.3rem;
+}
+
+.date-card {
+  width: 20.6rem;
+}
+
+.quantity-card {
+  width: 22.9rem;
+}
+
+.location-card > img,
+.date-card > img,
+.quantity-card > img {
+  transition: 0.3s;
+}
+
+.location-card > img:hover,
+.date-card > img:hover,
+.quantity-card > img:hover {
+  transform: translateY(-8px);
+}
+
+/* TIMES SECTION */
